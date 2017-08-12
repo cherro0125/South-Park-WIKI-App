@@ -1,5 +1,5 @@
 <template>
-  <v-app light>
+  <v-app>
     <router-view></router-view>
     <v-footer :fixed="fixed">
       <span>&copy; 2017</span>
@@ -11,9 +11,7 @@
   export default {
     data () {
       return {
-
-        fixed: false,
-
+        fixed: false
       }
     }
   }
